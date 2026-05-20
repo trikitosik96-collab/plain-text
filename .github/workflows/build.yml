@@ -24,7 +24,7 @@ jobs:
           npm run build
 
       - name: Сохранение артефактов
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: webpack-build
           path: webpack-project/dist
@@ -46,7 +46,7 @@ jobs:
           npm run build
 
       - name: Сохранение артефактов
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: vite-build
           path: vite-project/dist
